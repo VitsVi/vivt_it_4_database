@@ -1,8 +1,8 @@
 # VIVT_IT_4_Database
 
 [![Python](https://img.shields.io/badge/-Python-464646?style=flat&logo=Python&logoColor=56C0C0&color=008080)](https://www.python.org/)
-[![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-1.0.0-brightgreen)](https://www.crummy.com/software/BeautifulSoup/)
-[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1.4.22-blue)](https://www.sqlalchemy.org/)
+[![BeautifulSoup4](https://img.shields.io/badge/BeautifulSoup4-4.13.3-brightgreen)](https://www.crummy.com/software/BeautifulSoup/)
+[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-2.0.39-blue)](https://www.sqlalchemy.org/)
 
 
 ## Описание проекта

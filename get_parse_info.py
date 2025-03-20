@@ -1,7 +1,9 @@
-from utils import find_tag
 import requests
-from constants import TEACHERS_URL, STREETS_NAME_URL
 from bs4 import BeautifulSoup
+
+from constants import STREETS_NAME_URL, TEACHERS_URL
+from utils import find_tag
+
 
 def get_teachers_list():
     response = requests.get(TEACHERS_URL)
@@ -17,7 +19,7 @@ def get_teachers_list():
 
 def get_students_list():
     students = []
-    with open('students.txt','r', encoding='utf-8') as file:
+    with open('db_info/students.txt','r', encoding='utf-8') as file:
         for line in file:
             students.append(line.rstrip())
     return students
@@ -32,5 +34,3 @@ def get_streets_name():
     for ul in ul_tags:
         streets.append(ul.get_text(strip=True, separator=''))
     return streets
-
-get_streets_name()
